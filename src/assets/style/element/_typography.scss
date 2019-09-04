@@ -1,0 +1,35 @@
+h1 {
+  font-size: 2.5rem;
+}
+
+h2 {
+  font-size: 2.3rem;
+}
+
+h3 {
+  font-size: 2.1rem;
+}
+
+h4 {
+  font-size: 1.9rem;
+}
+
+p, button, li, span {
+  font-size: 1.8rem;
+}
+
+table {
+  font-size: 7.5rem;
+}
+
+h1, h2, h3, h4 {
+  color: $typo-bold;
+}
+
+h5, h6 {
+  color: $typo-semibold;
+}
+
+p, span, li {
+  color: $typo-dark-light;
+}
