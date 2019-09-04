@@ -1,0 +1,41 @@
+.fsc_SideBarNavItem {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  cursor: pointer;
+  background: white;
+  border-left: 3px solid white;
+
+  &:hover {
+    background: #f7f7f7;
+    border-left: 3px solid #2A8BF2;
+  }
+
+  &__hoverIndicator {
+    width: 3px;
+    background: #2A8BF2;
+    box-shadow: 4px 0 25px rgba(42, 139, 242, 0.75), 0 0 10px rgba(42, 139, 242, 0.55), 1px 0 10px rgba(42, 139, 242, 0.45);
+    border-radius: 3px;
+    height: 100%;
+  }
+
+  &__icon {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  &__text {
+    font-size: .8rem;
+    text-transform: uppercase;
+    color: #707C97;
+    font-weight: 500;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+    &:hover {
+      font-weight: 900;
+    }
+  }
+}
