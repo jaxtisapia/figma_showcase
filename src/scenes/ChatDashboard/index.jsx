@@ -5,15 +5,13 @@ import ContentView from "./containers/ContentView";
 class ChatDashboardScene extends Component {
   render() {
     return (
-      <div>
-        <div className="row">
-          <div className="col-3">
-            <SideBar />
-          </div>
+      <div className="row">
+        <div className="col-3">
+          <SideBar />
+        </div>
 
-          <div className="col-9">
-            <ContentView />
-          </div>
+        <div className="col-9">
+          <ContentView />
         </div>
       </div>
     );
