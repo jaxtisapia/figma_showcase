@@ -8,10 +8,24 @@
   cursor: pointer;
   margin: 5px 5px 5px 10px;
   box-shadow: 0 5px 25px rgba(42, 139, 242, 0.07),
-  0 7px 25px rgba(42, 139, 242, 0.03), 0 10px 15px rgba(0, 0, 0, 0.03);
+    0 7px 25px rgba(42, 139, 242, 0.03), 0 10px 15px rgba(0, 0, 0, 0.03);
 
   &:hover {
     box-shadow: 0 5px 25px rgba(40, 134, 233, 0.15),
-    0 7px 25px rgba(38, 126, 219, 0.15), 0 10px 15px rgba(218, 218, 218, 0.15);
+      0 7px 25px rgba(38, 126, 219, 0.15), 0 10px 15px rgba(218, 218, 218, 0.15);
+  }
+
+  &--inverted {
+    background: linear-gradient(325.78deg, #2a8bf2 14.76%, #7cb8f7 87.3%);
+  }
+
+  &--small {
+    width: 32px;
+    height: 32px;
+  }
+
+  &--medium {
+    width: 40px;
+    height: 40px;
   }
 }

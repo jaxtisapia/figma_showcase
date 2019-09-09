@@ -1,0 +1,35 @@
+.fsc_ChatSendLayout {
+  display: flex;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding: 10px 0;
+  border-top: 1px solid black;
+  justify-content: space-between;
+
+  &__leftContent {
+    display: flex;
+    align-items: center;
+
+    &--moreBtn {
+      padding-right: 20px;
+    }
+    &--inputMessage {
+      padding-right: 10px;
+      padding-left: 10px;
+    }
+  }
+
+  &__rightContent {
+    display: flex;
+    align-items: center;
+
+    &--emojiOpen {
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+    &--sendBtn {
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+  }
+}

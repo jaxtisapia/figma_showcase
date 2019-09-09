@@ -1,6 +1,10 @@
 import React from "react";
+
+import "../../../style/_ActiveChatContent.scss";
+
 import ChatMessage from "../../../components/ChatMessage";
 import ActiveChatHeader from "../../../components/ActiveChatHeader";
+import ChatSendLayout from "../../../components/ChatSendLayout";
 
 const chatMessages = [
   {
@@ -37,14 +41,20 @@ const chatMessages = [
 
 const ActiveChatContent = () => {
   return (
-    <div>
-      <ActiveChatHeader/>
+    <div className="ChatDashboard_ActiveChatContent">
+      <div>
+        <ActiveChatHeader />
+      </div>
 
-      {chatMessages.map((chatMessage, index) => (
-        <ChatMessage key={index} {...chatMessage} />
-      ))}
+      <div>
+        {chatMessages.map((chatMessage, index) => (
+          <ChatMessage key={index} {...chatMessage} />
+        ))}
+      </div>
 
-      <div />
+      <div className="ChatDashboard_ActiveChatContent__chatSendLayout">
+        <ChatSendLayout />
+      </div>
     </div>
   );
 };

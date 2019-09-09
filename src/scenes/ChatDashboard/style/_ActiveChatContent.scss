@@ -1,0 +1,11 @@
+.ChatDashboard_ActiveChatContent {
+  background: #ffffff;
+  height: 80vh;
+  position: relative;
+
+  &__chatSendLayout {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+  }
+}
