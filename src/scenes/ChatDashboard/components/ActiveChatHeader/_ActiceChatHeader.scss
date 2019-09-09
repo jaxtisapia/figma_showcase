@@ -1,0 +1,31 @@
+.fsc_ActiveChatHeader {
+  background: #fafbff;
+  border-radius: 6px 6px 0 0;
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 20px;
+
+  &__userInfo {
+    display: flex;
+    align-items: center;
+
+    &--avatar {
+      width: 54px;
+      height: 54px;
+    }
+
+    &--name {
+    }
+    &--lastSeen {
+      font-size: 1rem;
+      text-transform: lowercase;
+      color: #2a8bf2;
+      font-weight: 500;
+    }
+  }
+
+  &__actions {
+    display: flex;
+  }
+}
+
