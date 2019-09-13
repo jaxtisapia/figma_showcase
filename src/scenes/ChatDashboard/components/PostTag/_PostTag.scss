@@ -1,0 +1,30 @@
+.fsc_PostTag {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  padding: 10px 15px;
+  margin: 15px;
+
+  &__bgRed {
+    background: rgba(255, 51, 102, 0.25);
+  }
+  &__bgBlue {
+    background: rgba(42, 139, 242, 0.25);
+  }
+
+  &__image {
+    padding: 5px;
+  }
+
+  &__text {
+    padding: 5px;
+
+    &--blue {
+      color: #2a8bf2;
+    }
+    &--red {
+      color: #FF3366;
+    }
+  }
+}
